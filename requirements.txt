@@ -1,9 +1,5 @@
-pylint
 pandas
-scipy
 matplotlib
-seaborn
 streamlit
 fbprophet
 japanize_matplotlib
-altair

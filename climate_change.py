@@ -1,11 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
+# In[1]:
 
 
-from matplotlib.dates import MonthLocator, num2date
-from matplotlib.ticker import FuncFormatter
 import pandas as pd
 from fbprophet import Prophet
 import matplotlib.pyplot as plt
@@ -13,7 +11,7 @@ import japanize_matplotlib
 import streamlit as st
 
 
-# In[ ]:
+# In[2]:
 
 
 st.markdown('''
@@ -31,7 +29,7 @@ st.text('                            ')
 st.text('----------------------------------------------------')
 
 
-# In[ ]:
+# In[3]:
 
 
 # 日平均気温データ(Excel)の読み込み
@@ -41,7 +39,7 @@ df_a1= pd.read_excel('data_a1.xlsx')
 df_a = df_a1.set_index('Year')
 
 
-# In[ ]:
+# In[4]:
 
 
 st.markdown('''
@@ -56,7 +54,7 @@ st.text('                            ')
 st.text('----------------------------------------------------')
 
 
-# In[ ]:
+# In[5]:
 
 
 st.markdown('''
@@ -71,7 +69,7 @@ st.text('                            ')
 st.text('----------------------------------------------------')
 
 
-# In[ ]:
+# In[6]:
 
 
 # 日最高気温データ(Excel)の読み込み
@@ -81,7 +79,7 @@ df_h1= pd.read_excel('data_h.xlsx')
 df_h = df_h1.set_index('Year')
 
 
-# In[ ]:
+# In[7]:
 
 
 st.markdown('''
@@ -95,7 +93,7 @@ st.text('                            ')
 st.text('----------------------------------------------------')
 
 
-# In[ ]:
+# In[8]:
 
 
 st.markdown('''
@@ -109,7 +107,7 @@ st.text('                            ')
 st.text('----------------------------------------------------')
 
 
-# In[ ]:
+# In[9]:
 
 
 st.text('                            ')
@@ -122,10 +120,8 @@ st.markdown('''
 ''')
 
 
-# In[ ]:
+# In[10]:
 
-
-import altair as alt
 
 # 学習データ用意
 # 日付のデータは、暫定的に各年の1月1日に設定
@@ -147,7 +143,7 @@ a = model.plot(forecast_data)
 st.pyplot(a)
 
 
-# In[ ]:
+# In[11]:
 
 
 st.text('----------------------------------------------------')
@@ -164,7 +160,7 @@ st.markdown('''
 ''')
 
 
-# In[ ]:
+# In[12]:
 
 
 st.text('----------------------------------------------------')
