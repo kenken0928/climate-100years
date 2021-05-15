@@ -4,8 +4,6 @@ scipy
 matplotlib
 seaborn
 streamlit
-matplotlib.dates
-matplotlib.ticker
 fbprophet
 matplotlib.pyplot
 japanize_matplotlib
