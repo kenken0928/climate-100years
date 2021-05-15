@@ -1,3 +1,4 @@
+pystan
 pandas
 matplotlib
 streamlit
