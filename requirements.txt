@@ -1,5 +1,6 @@
 pystan==2.19.1.1
 pandas
+openpyxl
 matplotlib
 streamlit
 fbprophet

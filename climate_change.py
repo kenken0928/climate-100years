@@ -5,6 +5,7 @@
 
 
 import pandas as pd
+import openpyxl
 from fbprophet import Prophet
 import matplotlib.pyplot as plt
 import japanize_matplotlib
