@@ -5,3 +5,4 @@ matplotlib
 streamlit
 fbprophet
 japanize_matplotlib
+numpy
