@@ -2,7 +2,7 @@ pystan==2.19.1.1
 pandas
 openpyxl
 matplotlib
-streamlit
+streamlit==0.78.0
 fbprophet
 japanize_matplotlib
 numpy
